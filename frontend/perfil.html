@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil Estudiantil</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
+    <a class="navbar-brand" href="perfil.html">AulaNet</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+         <a class="nav-item nav-link" href="tablon.html">Tablon</a>
+         <a class="nav-item nav-link" href="perfil.html">Perfil</a>
+    </div>
+  </nav>
+  <div class="grid-container">
+    <aside class ="sidebar">
+        <div class="profile-card">
+            <img class="profile-img" src="/frontend/img/7b12d287221c0adf5b4efcdf326c178f.jpg" alt="foto de perfil">
+            <h2 class="username">Laura Acosta</h2>
+                <p class ="mail">lau@example.com</p>
+                <div class="row-inline">
+                  <label for="curso">6°</label>
+                  <label for="seccion">"B"</label>
+                </div>
+                <p class ="dni">24.134.203</p>
+            <button class="edit-btn">Editar Perfil</button>
+        </div>
+    </aside>
+    <div class="content" id="cartas">
+        <div class="card-container">
+            <!-- asistencia y faltas -->
+            <div class="card">
+                <h3>Asistencia del alumno</h3>
+                <p>Planilla de faltas y asistencias</p>
+            </div>
+            <div class="card">
+                <h3>Libreta virtual</h3>
+                <p>Planilla de notas</p>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-primary" href="documentos.html">Ver Documentos</a>
+            </div>
+        </div>
+  </div>
+
+</body>
+</html>
