@@ -1,0 +1,72 @@
+:root{
+    --blanco: #ffffff;
+    --rosa: #ffaeb5;
+    --verde: #b4e06e; 
+    --celeste: #cae3ec;
+    --gris: #485a61;
+    --negro: #000000;
+}
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--blanco);
+    background-size: cover;
+}
+
+header{
+    background-color: var(--celeste);
+    text-align: center;
+    box-shadow: 4px 4px;
+    margin: 0;
+    padding: 20px 0 0;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.nav-bar1 ul{
+    display: flex;
+    gap: 30px;
+    padding: 1rem;
+    margin-top: auto;
+    justify-content:center ;
+}
+
+.nav-bar1 li a{
+    text-decoration: none;
+    color:#ffffff;
+/*     background-color: #ffaeb5; */
+    border-radius: 10px 10px 0 0;
+    transition: background-color 0.3s;
+}
+
+.nav-bar1 li a:hover{
+    background-color: var(--rosa);
+    color: var(--blanco);
+}
+.row{
+    background-color: var(--verde);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 4px 4px;
+}
+
+.side-column{
+    border-radius: 15px;
+    margin: 15px;
+    height: 110px;
+    box-shadow: 4px 4px;
+}
+.col-auto{
+    border-radius: 15px;
+}
+
+.card-body{
+    box-shadow: 2px 2px;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 110px 0 0;
+}
