@@ -37,12 +37,9 @@ if (document.getElementById("loginForm")) {
 }
 
 // Perfil y documentos
-if (document.getElementById("nombreUsuario")) {
-  const nombre = localStorage.getItem("usuario") || "Usuario";
-  document.getElementById("nombreUsuario").textContent = nombre;
 
-  const contenedor = document.getElementById("documentosContainer");
   const input = document.getElementById("searchInput");
+  const contenedor = document.getElementById("documentosContainer");
 
   function mostrarDocumentos(query = "") {
     contenedor.innerHTML = "";
@@ -72,4 +69,4 @@ if (document.getElementById("nombreUsuario")) {
   });
 
   mostrarDocumentos();
-}
+

@@ -146,3 +146,11 @@ body {
   background-color: #7c4f13;
   color: white;
 }
+.user-card img { /* Cambié profile-img a user-card img para que coincida con el HTML original */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}   
